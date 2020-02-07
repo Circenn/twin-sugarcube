@@ -1,0 +1,91 @@
+body {
+  background-color: black;
+  background-image: radial-gradient(#11646694, #2c35312e);
+  font-family: "Fondamento", cursive;
+  font-size: 1rem;
+  color: #d1e8e2;
+}
+
+body,
+tw-story {
+  font-family: "Fondamento", cursive;
+  font-size: 1.5rem;
+  color: #d1e8e2;
+}
+
+tw-link {
+  color: whitesmoke;
+}
+tw-link:hover {
+  color: skyblue;
+}
+
+.c-image-bakground-container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: 20rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/016/509/213/large/pavel-filimonov-03.jpg?1552424006");
+}
+.c-image-bakground-container::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: inherit;
+  background-color: rgba(128, 128, 128, 0.15);
+}
+
+.c-image-container {
+  display: flex;
+  justify-content: center;
+  width: 40rem;
+  margin: 0 auto;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.c-image {
+  width: 40rem;
+  height: auto;
+}
+
+#story {
+  margin-left: 3.5em;
+}
+
+#story-title {
+  margin: 0;
+  font-size: 140%;
+  color: #d1e8e2;
+}
+
+#menu li a:hover {
+  background-color: #444;
+  border-color: #eee;
+}
+
+#menu li a {
+  display: block;
+  padding: 0.25em 0.75em;
+  border: 1px solid transparent;
+  color: darkolivegreen;
+  text-transform: uppercase;
+}
+
+#ui-bar-body {
+  height: calc(100% - 2.5em);
+  margin: 2.8em 0;
+  padding: 0 1.5em;
+}
+
+.c-stats-container {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-column-gap: 1rem;
+  color: rgb(26, 117, 38);
+}
